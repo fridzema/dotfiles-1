@@ -38,18 +38,5 @@ pecl install imagick redis swoole
 # Install Laravel Valet
 $HOME/.composer/vendor/bin/valet install
 
-# Create a Sites directory
-mkdir $HOME/Sites
-
-# Create sites subdirectories
-mkdir $HOME/Sites/blade-ui-kit
-mkdir $HOME/Sites/laravel
-
-# Clone Github repositories
-$DOTFILES/clone.sh
-
-# Symlink the Mackup config file to the home directory
-ln -s $DOTFILES/.mackup.cfg $HOME/.mackup.cfg
-
 # Set macOS preferences - we will run this last because this will reload the shell
 source $DOTFILES/.macos
