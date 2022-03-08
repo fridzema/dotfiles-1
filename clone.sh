@@ -7,10 +7,10 @@ BLADE=$SITES/blade-ui-kit
 LARAVEL=$SITES/laravel
 
 # Personal
-git clone git@github.com:driesvints/driesvints.com.git $SITES/driesvints.com
-git clone git@github.com:driesvints/learn-laravel-cashier.com.git $SITES/learn-laravel-cashier.com
-git clone git@github.com:driesvints/pixelperfect.company.git $SITES/pixelperfect.company
-git clone git@github.com:driesvints/vat-calculator.git $SITES/vat-calculator
+git clone git@github.com:fridzema/fridzema.com.git $SITES/fridzema.com
+git clone git@github.com:fridzema/learn-laravel-cashier.com.git $SITES/learn-laravel-cashier.com
+git clone git@github.com:fridzema/pixelperfect.company.git $SITES/pixelperfect.company
+git clone git@github.com:fridzema/vat-calculator.git $SITES/vat-calculator
 git clone git@github.com:eventyio/eventy.io.git $SITES/eventy.io
 git clone git@github.com:fullstackbelgium/fullstackbelgium.be.git $SITES/fullstackbelgium.be
 git clone git@github.com:fullstackeurope/fullstackeurope.com.git $SITES/fullstackeurope.com
